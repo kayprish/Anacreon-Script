@@ -32,10 +32,10 @@ local input = require 'mp.input'
 
 ------------- User Config -------------
 -- Set these to match your field names in Anki
-local FRONT_FIELD = "Expression"
-local SENTENCE_AUDIO_FIELD = "SentenceAudio"
-local SENTENCE_FIELD = "SentenceFurigana"
-local IMAGE_FIELD = "Picture"
+local FRONT_FIELD = "Vocab"
+local SENTENCE_AUDIO_FIELD = "SentAudio"
+local SENTENCE_FIELD = "INVALID" -- the sentence is better taken care of by yomitan itself.
+local IMAGE_FIELD = "Image"
 -- Optional padding and fade settings in seconds.
 -- Padding grabs extra audio around your selected subs.
 -- Fade does a volume fade effect at the beginning and end of the resulting audio.
